@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CAD to USD Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>USD to CAD Converter</h1>
+  <div class="converter">
+    <h2>USD to CAD at the real exchange rate.</h2>
+    <label for="usdInput">USD:</label>
+    <input type="number" id="usdInput" min="0">
+    <label for="cadInput">CAD:</label>
+    <input type="number" id="cadInput" min="0">
+    <div id="error"></div>
+    <button onclick="convertCurrency()">Convert</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
